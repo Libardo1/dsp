@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose vim for now because of the statement 'it is the default and you might find yourself in it', in the future I may choose Emacs because it seems to have a clear plug in for spell check
 
 ---
 
