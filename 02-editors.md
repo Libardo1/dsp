@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> For now I'm going to stick to Sublime, since I've been using it for several years and I like its setup. I may switch to vim/Emacs in the future for the reasons listed above.
 
 ---
