@@ -21,6 +21,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 7._touch_ - creates empty file in directory
 8. _man_ - shows what a command is all about
 9. _help_ - shows help info for how to use a command
+10. _rm_ removes a file within the folder you are in
 
 ---
 
