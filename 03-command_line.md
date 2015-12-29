@@ -13,12 +13,12 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 > > _cd_ - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
-rmdir - deletes a folder directly below the one you're in [rmdir <folder name>]. cannot be used to delete folders that have any contents
-ls - used below cd to list all folders and files in a folder - good for rmdir or further cd
+_rmdir_ - deletes a folder directly below the one you're in [rmdir <folder name>]. cannot be used to delete folders that have any contents
+_ls_ - used below cd to list all folders and files in a folder - good for rmdir or further cd
 mkdir - makes a new folder in folder you are in
-pwd - shows you where you are in a path
-pushd/popd - pushd is like temp cd into a path, then type popd to move back to original folder. can push into further folders and pop back several times to get to original directory
-touch - creates empty file in directory
+_pwd_ - shows you where you are in a path
+_pushd/popd_ - pushd is like temp cd into a path, then type popd to move back to original folder. can push into further folders and pop back several times to get to original directory
+_touch_ - creates empty file in directory
 
 ---
 
