@@ -12,13 +12,15 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > _cd_ - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
-_rmdir_ - deletes a folder directly below the one you're in [rmdir <folder name>]. cannot be used to delete folders that have any contents
-_ls_ - used below cd to list all folders and files in a folder - good for rmdir or further cd
-mkdir - makes a new folder in folder you are in
-_pwd_ - shows you where you are in a path
-_pushd/popd_ - pushd is like temp cd into a path, then type popd to move back to original folder. can push into further folders and pop back several times to get to original directory
-_touch_ - creates empty file in directory
+> > 1._cd_ - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
+2._rmdir_ - deletes a folder directly below the one you're in [rmdir <folder name>]. cannot be used to delete folders that have any contents
+3._ls_ - used below cd to list all folders and files in a folder - good for rmdir or further cd
+4._mkdir_ - makes a new folder in folder you are in
+5._pwd_ - shows you where you are in a path
+6._pushd/popd_ - pushd is like temp cd into a path, then type popd to move back to original folder. can push into further folders and pop back several times to get to original directory
+7._touch_ - creates empty file in directory
+8. _man_ - shows what a command is all about
+9. _help_ - shows help info for how to use a command
 
 ---
 
@@ -36,7 +38,19 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > The xargs utility reads space, tab, newline and end-of-file delimited
+     strings from the standard input and executes utility with the strings as
+     arguments.
+
+     Any arguments specified on the command line are given to utility upon
+     each invocation, followed by some number of the arguments read from the
+     standard input of xargs.  The utility is repeatedly executed until stan-
+     dard input is exhausted.
+     
+     EX: $ xargs -t
+         abcd
+         [cntrl-d] 
+         outputs bin/echo abcd
 
 ---
 
