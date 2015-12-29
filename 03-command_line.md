@@ -12,7 +12,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > cd - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
+> > *cd* - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
 rmdir - deletes a folder directly below the one you're in [rmdir <folder name>]. cannot be used to delete folders that have any contents
 ls - used below cd to list all folders and files in a folder - good for rmdir or further cd
 mkdir - makes a new folder in folder you are in
