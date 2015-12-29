@@ -29,7 +29,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls lists all of the files and folders in a directory. ls -l lists files with details. ls -lh lists details for file in readable format. ls -a lets you view hidden files in the folder. ls -l -a and ls -lh -a are meaningful combinations. 
 
 ---
 
