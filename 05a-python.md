@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> tuples are immutable object arrays. You can have both integers and strings in tuples, but cannot do this with lists. Lists are the most simple arrays that you can do in python. Tuples would work as keys in dictionaries because they are immutable and have a 2d reference.
 
 ---
 
@@ -28,7 +28,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+a lambda function is an 'anonymous' function because it is undefined (by def at the beginning of a code). You can use the lambda operator for single use functions within a larger framework of code, and do not have to define the function every time. For example, while creating a dictionary such as in the first question on this list, you could write a lambda function to sort the dictionary once it has been created - something you would only need to do once.
 
 ---
 
