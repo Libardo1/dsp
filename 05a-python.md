@@ -36,7 +36,7 @@ a lambda function is an 'anonymous' function because it is undefined (by def at 
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-(Section 19.2) List comprehensions are basically lists within lists. You can use the concept to more succinctly apply further code to a list you've already created. In addition to manipulating the items in a list with a list comprehension, you can use list comprehension to filter a list (ex: print only items from the list that are all upper case).
+(Section 19.2) List comprehensions are basically lists within lists. You can use the concept to more succinctly apply further code to a list you've already created. In addition to manipulating the items in a list with a list comprehension, you can use list comprehension to filter a list (ex: print only items from the list that are all upper case). A list comprehension can be written to do the things that the map and filter operators do. The benefit to a list comprehension is that its operations can be tweaked, whereas an operator will always produce the result it was originally written to produce. 
 
 ---
 
