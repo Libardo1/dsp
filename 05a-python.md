@@ -47,8 +47,12 @@ Use Python to compute days between start and stop date.
 a.  
 
 ```
-date_start = '01-02-2013'    
-date_stop = '07-28-2015'
+import datetime
+def number_days():
+	date_stop = datetime.datetime(2015, 7, 28)
+	date_start = datetime.datetime(2013, 1, 2)
+	print((date_stop-date_start).days)
+number_days()
 ```
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
