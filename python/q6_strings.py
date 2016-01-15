@@ -15,7 +15,7 @@ def donuts(count):
  		print('number of donuts: ',count)
  	else:
  		print('number of donuts: many')
-donuts(12)
+donuts(count)
 
 def both_ends(s):
     """
