@@ -9,17 +9,13 @@ def donuts(count):
     passed in. However, if the count is 10 or more, then use the word
     'many' instead of the actual count.
 
-    >>> donuts(4)
-    'Number of donuts: 4'
-    >>> donuts(9)
-    'Number of donuts: 9'
-    >>> donuts(10)
-    'Number of donuts: many'
-    >>> donuts(99)
-    'Number of donuts: many'
-    """
-    raise NotImplementedError
 
+def donuts(count):
+ 	if count < 10:
+ 		print('number of donuts: ',count)
+ 	else:
+ 		print('number of donuts: many')
+donuts(12)
 
 def both_ends(s):
     """
