@@ -55,18 +55,13 @@ def mix_up(a, b):
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
     each string. Assume a and b are length 2 or more.
+    
+def mix_up(a, b):
+    first_word = a[:2]
+    second_word = b[:2]
+    print((second_word + a[2:]), (first_word + b[2:]))
 
-    >>> mix_up('mix', 'pod')
-    'pox mid'
-    >>> mix_up('dog', 'dinner')
-    'dig donner'
-    >>> mix_up('gnash', 'sport')
-    'spash gnort'
-    >>> mix_up('pezzy', 'firm')
-    'fizzy perm'
-    """
-    raise NotImplementedError
-
+mix_up("nothing", "better")
 
 def verbing(s):
     """
