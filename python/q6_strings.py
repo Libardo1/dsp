@@ -24,17 +24,16 @@ def both_ends(s):
     However, if the string length is less than 2, return instead the
     empty string.
 
-    >>> both_ends('spring')
-    'spng'
-    >>> both_ends('Hello')
-    'Helo'
-    >>> both_ends('a')
-    ''
-    >>> both_ends('xyz')
-    'xyyz'
-    """
-    raise NotImplementedError
-
+def both_ends(s):
+    first_two = s[:2]
+    last_two = s[-2:]
+    if len(s) > 2:
+        print(first_two+last_two)
+    elif len(s) == 2:
+        print(first_two)
+    else:
+        print("")
+both_ends('splkjslgkj')
 
 def fix_start(s):
     """
@@ -43,16 +42,12 @@ def fix_start(s):
     first char itself. e.g. 'babble' yields 'ba**le' Assume that the
     string is length 1 or more.
 
-    >>> fix_start('babble')
-    'ba**le'
-    >>> fix_start('aardvark')
-    'a*rdv*rk'
-    >>> fix_start('google')
-    'goo*le'
-    >>> fix_start('donut')
-    'donut'
-    """
-    raise NotImplementedError
+def fix_start(s):
+    first_char = s[0]
+    mod = s[1:].replace(first_char,"*")
+    print((first_char + mod))
+
+fix_start('badabingbadaboom')
 
 
 def mix_up(a, b):
