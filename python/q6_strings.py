@@ -70,14 +70,15 @@ def verbing(s):
     If the string length is less than 3, leave it unchanged. Return
     the resulting string.
 
-    >>> verbing('hail')
-    'hailing'
-    >>> verbing('swiming')
-    'swimingly'
-    >>> verbing('do')
-    'do'
-    """
-    raise NotImplementedError
+def verbing(s):
+    stri = s[-3:]
+    if stri == "ing":
+        print(s + "ly")
+    elif len(s) >= 3:
+        print(s + "ing")
+    elif len(s) < 3:
+        print(s)
+verbing("")
 
 
 def not_bad(s):
