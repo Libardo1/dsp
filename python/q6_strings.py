@@ -113,9 +113,19 @@ def front_back(a, b):
 
     >>> front_back('abcd', 'xy')
     'abxcdy'
-    >>> front_back('abcde', 'xyz')
-    'abcxydez'
-    >>> front_back('Kitten', 'Donut')
-    'KitDontenut'
-    """
-    raise NotImplementedError
+
+def front_back(a, b):
+    splita = len(a)/2
+    frnta = a[:int(splita)]
+    backa = a[int(splita):]
+    splitb = len(b)/2
+    frntb = b[:int(splitb)]
+    backb = b[int(splitb):]
+    if len(a) % 2 != 0:
+        frnta = a[:int(splita + .5)]
+        backa = a[int(splita - .5):]
+    if len(b) % 2 != 0:
+        frntb = b[:int(splitb + .5)]
+        backb = b[int(splitb - .5):]
+    print(frnta + backb + frntb + backa)
+front_back("calma", "root")
