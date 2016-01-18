@@ -10,4 +10,11 @@ date_stop = '05282015'
 
 ####c)  
 date_start = '15-Jan-1994'  
-date_stop = '14-Jul-2015'  
+date_stop = '14-Jul-2015' 
+
+import datetime
+def number_days():
+    date_stop = datetime.datetime(2015, 7, 28)
+    date_start = datetime.datetime(2013, 1, 2)
+    print((date_stop-date_start).days)
+number_days()
