@@ -106,4 +106,7 @@ def linear_merge(list1, list2):
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
     """
-    raise NotImplementedError
+def linear_merge(list1, list2):
+    list1.extend(list2)
+    print(sorted(list1))
+linear_merge(['aa', 'xx', 'yy'], ['bb', 'cc'])
