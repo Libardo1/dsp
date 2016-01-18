@@ -39,7 +39,18 @@ def front_x(words):
     >>> front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark'])
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
-    raise NotImplementedError
+def front_x(words):
+	list = sorted(words.split())
+	x_list = []
+	other_list = []
+	for i in list:
+		if i.startswith('x'):
+			x_list.append(i)
+		else:
+			if i[0] != 'x':
+				other_list.append(i)
+	print(sorted(x_list) + sorted(other_list))
+front_x("serious bottom is xylpone xanadu")
 
 
 def sort_last(tuples):
