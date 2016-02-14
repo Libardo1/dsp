@@ -14,7 +14,6 @@ def clean(degs):
 		final_degs.append(deg_clean)
 	return(final_degs)
 	
-	#this section is where the 1 is being attached
 def make_histogram(data, num):
 	dict = {}
 	for professors in data[1:]:
@@ -29,10 +28,6 @@ def make_histogram(data, num):
 		elif num == 2:
 			professors[num] = professors[num].replace(" is", "of")
 			dict[professors[num]] = dict.get(professors[num], 0) + 1
-			#if re.search(dict[professors[num]], "is"):
-			#	replace(re.search(dict[professors[num], "is" with ("of")
-		
-		
 	return(dict)
 
 def prnt_freq(dict):
