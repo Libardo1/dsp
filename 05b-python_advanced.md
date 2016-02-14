@@ -19,12 +19,22 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
-
+There are 8 unique degrees.
+JD appears 1 times.
+SCD appears 6 times.
+MPH appears 2 times.
+MA appears 1 times.
+BSED appears 1 times.
+MD appears 1 times.
+PHD appears 31 times.
+MS appears 2 times.
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+There are 3 unique titles.
+Professor of Biostatistics appears 13 times.
+Assistant Professor of Biostatistics appears 12 times.
+Associate Professor of Biostatistics appears 12 times.
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
