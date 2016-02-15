@@ -6,6 +6,12 @@ Write a function that takes a goal-scoring rate, lam, in goals per game, and sim
 Write another function that simulates many games, stores the estimates of lam, then computes their mean error and RMSE.
 
 Is this way of making an estimate biased? Plot the sampling distribution of the estimates and the 90% confidence interval. What is the standard error? What happens to sampling error for increasing values of lam?
+
+
+
+
+
+
 ---
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
