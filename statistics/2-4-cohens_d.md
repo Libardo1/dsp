@@ -40,6 +40,5 @@ def main():
     else: 
         print("the effect size is small")   
 if __name__ == '__main__':
-    main()	
-'''
+    main()
 
