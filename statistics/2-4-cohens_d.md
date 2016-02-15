@@ -3,7 +3,7 @@
 I added the print statements at the end of the program to denote whether or not the effect is large. 
 
 
-
+'''
 import math
 import nsfg
 import first
@@ -41,5 +41,5 @@ def main():
         print("the effect size is small")   
 if __name__ == '__main__':
     main()	
-
+'''
 
