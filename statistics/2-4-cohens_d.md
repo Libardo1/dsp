@@ -1,11 +1,16 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 Exercise 4   Using the variable totalwgt_lb, investigate whether first babies are lighter or heavier than others. Compute Cohen’s d to quantify the difference between the groups. How does it compare to the difference in pregnancy length?
 
-
+```
 The basic question: is there is a difference in weight, on average, between first babies and other babies?
 
-The Cohen's D of this problem came out to -.089, meaning that other babies are ever so slightly heavier on average than first babies. I created print statements at the end of the program to denote whether or not the effect is large, based on further research on how to interpret Cohen's d http://rpsychologist.com/d3/cohend/. As with P-values, it's bad practice to rely on 'canned effect sizes'; in this case, it seems that the effect size is small enough to be practically inconsequential if we weren't looking at birth weights of babies. This information about the difference could be important enough to be of concern for first-time mothers. 
-
+The Cohen's D of this problem came out to -.089, meaning that other babies are ever so slightly heavier on 
+average than first babies. I created print statements at the end of the program to denote whether or not the 
+effect is large, based on further research on how to interpret Cohen's d http://rpsychologist.com/d3/cohend/. 
+As with P-values, it's bad practice to rely on 'canned effect sizes'; in this case, it seems that the effect 
+size is small enough to be practically inconsequential if we weren't looking at birth weights of babies. This 
+information about the difference could be important enough to be of concern for first-time mothers. 
+```
 
 ```python
 import math
