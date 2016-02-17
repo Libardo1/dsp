@@ -7,10 +7,14 @@ Now compute the biased distribution we would see if we surveyed the children and
 
 Plot the actual and biased distributions, and compute their means. As a starting place, you can use chap03ex.ipynb
 
-
-Class Size Paradox - a computation that can be done with a PMF. For example - faculty ratios are 10/1 at american colleges, but students are surprised to find that their class sizes are generally much larger. Two reasons for this descrepency are that students typically take 4-5 classes per semester, but professors only teach 1-2 and that the number of students who will take a small class is small, but the number of students who take a large class is large, but nature of the metric. We are more concerned with the second reason for class size paradox.
-
 ```
+Class Size Paradox - a computation that can be done with a PMF. For example - faculty ratios are 10/1 
+at american colleges, but students are surprised to find that their class sizes are generally much larger. 
+Two reasons for this descrepency are that students typically take 4-5 classes per semester, but professors 
+only teach 1-2 and that the number of students who will take a small class is small, but the number of students 
+who take a large class is large, but nature of the metric. We are more concerned with the second reason for class 
+size paradox.
+
 The true mean of the distribution is 1.02, and the biased mean is 2.4. 
 Children are more likely to have contact with families that have at least one child, 
 so it makes sense that they would be biased to think that most people have children. 
