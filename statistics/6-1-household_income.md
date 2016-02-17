@@ -13,7 +13,10 @@ InterpolateSample generates a pseudo-sample; that is, a sample of household inco
 
 Compute the median, mean, skewness and Pearson’s skewness of the resulting sample. What fraction of households reports a taxable income below the mean? How do the results depend on the assumed upper bound?
 ```
-With a higher upper bound, the moment-based skewness increases (as we would expect). The Pearson skewness actually goes down - the reason seems to be that increasing the upper bound has an effect on the mean and a stronger effect on the std. Since stf is in the denominator with exp 3, it has a stronger effect on the result. This is apparently an example in which the PEarson skewness is not working well as a summary stat. 
+With a higher upper bound, the moment-based skewness increases (as we would expect). The Pearson skewness actually
+goes down - the reason seems to be that increasing the upper bound has an effect on the mean and a stronger effect 
+on the std. Since stf is in the denominator with exp 3, it has a stronger effect on the result. This is apparently 
+an example in which the PEarson skewness is not working well as a summary stat. 
 ```
 
 ```
