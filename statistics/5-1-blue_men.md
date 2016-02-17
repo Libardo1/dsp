@@ -23,4 +23,3 @@ high = dist.cdf(185.4)  #6'1"
 print("{0:.0%} of men are 5 ft 10 in or under.".format(low), 
 "{0:.0%} of men are 6 ft 1 in or under.".format(high),
 "{0:.0%} of men are between 5 ft 10 in and 6 ft 1 in.".format(high - low))
-#scipy.stats.norm represents a local distribution
