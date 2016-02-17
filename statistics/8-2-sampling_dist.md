@@ -4,7 +4,7 @@ Suppose you draw a sample with size n=10 from an exponential distribution with Î
 Repeat the experiment with a few different values of n and make a plot of standard error versus n.
 
 n | St. Error | Conf Interval
------------- | -------------
+------------ | ------------- | -------------
 10 | Content from cell 2 | ()
 100 | Content in the second column | ()
 
