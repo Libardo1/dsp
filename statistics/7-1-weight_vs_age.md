@@ -1,11 +1,18 @@
 [Think Stats Chapter 7 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2008.html#toc70) (weight vs. age)
 Exercise 1   Using data from the NSFG, make a scatter plot of birth weight versus mother’s age. Plot percentiles of birth weight versus mother’s age. Compute Pearson’s and Spearman’s correlations. How would you characterize the relationship between these variables?
+```
+In this exercise, I created a scatter plot that graphs the mothers age as x and the baby;s weight 
+as y. At the same time, I ran the regular correlation and the Spearman correlation separately as 
+values to get a numeric indication of whether or not there is an implied correlation. The correlation 
+is .068 and the Spearman correlation is .095, indicating that there isn't a strong correlation. 
+Additionally, the scatter plot implies a line almost parallel to the x axis, with a distribution 
+of 6-8.5 pounds regardless of the mother's age.  
 
-In this exercise, I created a scatter plot that graphs the mothers age as x and the baby;s weight as y. At the same time, I ran the regular correlation and the Spearman correlation separately as values to get a numeric indication of whether or not there is an implied correlation. The correlation is .068 and the Spearman correlation is .095, indicating that there isn't a strong correlation. Additionally, the scatter plot implies a line almost parallel to the x axis, with a distribution of 6-8.5 pounds regardless of the mother's age.  
+I used the formulas for Correlation, Covariance and Spearman correlation from thinkstats2 as guides 
+to write the code for this exercise. I would like to eventually not import thinkstats2 for CDF, but 
+have yet to extract that class as it calls on several other large formulas within that file. 
 
-I used the formulas for Correlation, Covariance and Spearman correlation from thinkstats2 as guides to write the code for this exercise. I would like to eventually not import thinkstats2 for CDF, but have yet to extract that class as it calls on several other large formulas within that file. 
-
-
+```
 
 ```python
 import sys
