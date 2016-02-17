@@ -91,7 +91,16 @@ an twin fraternal brother added to the probability of having a twin identical br
 How do frequentist and Bayesian statistics compare?
 
 ```
-This is an XKCD comic I found while researching this question which I think simplifies the difference nicely - http://imgs.xkcd.com/comics/frequentists_vs_bayesians.png . Bayesian philosophy continuously uses new data to update beliefs and existing knowledge ( such as in the example I provided, in which the observer takes the prior knowledge given, and updates it with the posterior information, which is that the sun has clearly not exploded due to empirical evidence). Frequentist comparison is a classical approach to statistic that relies on replication, confidence intervals and p-values. For example, if you are flipping a coin 10 times and it comes up heads 9 times, a frequentist analysis of whether or not the coin was fair would look at the observed result and calculate the probability based on what you would expect to observe if the coin was fair. The Bayesian approach would choose not just the observed data, but would factor in outside knowledge as well. Bayesian approaches have become more prevalent because they speed up the research process, but they are difficult to replicate.
+This is an XKCD comic I found while researching this question which I think simplifies the difference nicely -
+http://imgs.xkcd.com/comics/frequentists_vs_bayesians.png . Bayesian philosophy continuously uses new data 
+to update beliefs and existing knowledge ( such as in the example I provided, in which the observer takes the 
+prior knowledge given, and updates it with the posterior information, which is that the sun has clearly not 
+exploded due to empirical evidence). Frequentist comparison is a classical approach to statistic that relies on 
+replication, confidence intervals and p-values. For example, if you are flipping a coin 10 times and it comes up 
+heads 9 times, a frequentist analysis of whether or not the coin was fair would look at the observed result and 
+calculate the probability based on what you would expect to observe if the coin was fair. The Bayesian approach 
+would choose not just the observed data, but would factor in outside knowledge as well. Bayesian approaches have 
+become more prevalent because they speed up the research process, but they are difficult to replicate.
 ```
 ---
 
