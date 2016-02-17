@@ -12,6 +12,9 @@ It also takes log_upper, which is an assumed upper bound on the highest range, e
 InterpolateSample generates a pseudo-sample; that is, a sample of household incomes that yields the same number of respondents in each range as the actual data. It assumes that incomes in each range are equally spaced on a log10 scale.
 
 Compute the median, mean, skewness and Pearson’s skewness of the resulting sample. What fraction of households reports a taxable income below the mean? How do the results depend on the assumed upper bound?
+```
+With a higher upper bound, the moment-based skewness increases (as we would expect). The Pearson skewness actually goes down - the reason seems to be that increasing the upper bound has an effect on the mean and a stronger effect on the std. Since stf is in the denominator with exp 3, it has a stronger effect on the result. This is apparently an example in which the PEarson skewness is not working well as a summary stat. 
+```
 
 ```
 with log_upper = 6
