@@ -5,8 +5,9 @@ Repeat the experiment with a few different values of n and make a plot of standa
 
 n | St. Error | Conf Interval
 ------------ | ------------- | -------------
-10 | Content from cell 2 | ()
-100 | Content in the second column | ()
+10 | 0.90 | (1.3, 3.9)
+100 | 0.21 | (1.7, 2.4)
+1000 | 0.06 | (1.9, 2.1)
 
 ```python
 import thinkstats2
