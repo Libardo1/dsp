@@ -12,4 +12,44 @@ It also takes log_upper, which is an assumed upper bound on the highest range, e
 InterpolateSample generates a pseudo-sample; that is, a sample of household incomes that yields the same number of respondents in each range as the actual data. It assumes that incomes in each range are equally spaced on a log10 scale.
 
 Compute the median, mean, skewness and Pearson’s skewness of the resulting sample. What fraction of households reports a taxable income below the mean? How do the results depend on the assumed upper bound?
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+
+
+```python
+import numpy as np
+import density
+import hinc
+import thinkplot
+import thinkstats2 as ts2
+
+def InterpolateSample(df, log_upper=6.0):
+	df['log_upper'] = np.log10(df.income)
+	df['log_lower'] = df.log_upper.shift(1)
+	df.log_lower[0] = 3.0
+	df.log_upper[41] = log_upper
+
+	arrays = []
+	for _, row in df.iterrows():
+		vals = np.linspace(row.log_lower, row.log_upper, row.freq)
+		arrays.append(vals)
+
+	log_sample = np.concatenate(arrays)
+	return(log_sample)
+
+def main():
+	df = hinc.ReadData()
+	log_sample = InterpolateSample(df, log_upper=6.0)
+
+	log_cdf = ts2.Cdf(log_sample)
+	thinkplot.Cdf(log_cdf)
+	thinkplot.Show(xlabel='household income', ylabel='CDF')
+
+	sample = np.power(10, log_sample)
+	mean, median = density.Summarize(sample)
+
+	cdf = ts2.Cdf(sample)
+	thinkplot.Pdf(pdf)
+	thinkplot.Show(xlabel='household income', ylabel='PDF')
+
+
+if __name__ == '__main__':
+	main()	
