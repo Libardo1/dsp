@@ -13,7 +13,14 @@ InterpolateSample generates a pseudo-sample; that is, a sample of household inco
 
 Compute the median, mean, skewness and Pearson’s skewness of the resulting sample. What fraction of households reports a taxable income below the mean? How do the results depend on the assumed upper bound?
 
-
+```
+mean 74278.7075312
+std 93946.9299635
+median 51226.4544789
+skewness 4.94992024443
+pearson skewness 0.736125801914
+cdf[mean] 0.660005879567
+```
 ```python
 import numpy as np
 import density
