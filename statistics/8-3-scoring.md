@@ -62,9 +62,3 @@ if __name__ == '__main__':
 
 
 
-
----
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
----
