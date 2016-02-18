@@ -7,7 +7,27 @@ Write a class named DiffMeansResample that inherits from DiffMeansPermute and ov
 
 Use this model to test the differences in pregnancy length and birth weight. How much does the model affect the results?
 
+````
+means permute preglength
+p-value = 0.1674
+actual = 0.0780372667775
+ts max = 0.226752436104
 
+means permute birthweight
+p-value = 0.0
+actual = 0.124761184535
+ts max = 0.112243501197
+n    |   test1  | test2  | test2  | test4 
+---- | --------- | ------| -------|------
+9148 |	0.16 |	0.00 |	0.00 |	0.00
+4574	0.03	0.02	0.00	0.00
+2287	0.04	0.07	0.00	0.00
+1143	0.70	0.04	0.80	0.07
+571	0.53	0.00	0.00	0.35
+285	0.96	0.84	0.35	0.53
+142	0.87	0.49	0.20	0.06
+
+````
 
 
 ```python
