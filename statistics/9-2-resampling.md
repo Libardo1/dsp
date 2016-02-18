@@ -17,6 +17,7 @@ means permute birthweight
 p-value = 0.0
 actual = 0.124761184535
 ts max = 0.112243501197
+```
 n | test1 | test2 | test2 | test4
 -------- | -------- | -------- | -------- | --------
 9148 | 0.16 | 0.00 | 0.00 | 0.00
@@ -33,7 +34,7 @@ n | St. Error | Conf Interval
 100 | 0.21 | (1.7, 2.4)
 1000 | 0.06 | (1.9, 2.1)
 
-````
+
 
 
 ```python
