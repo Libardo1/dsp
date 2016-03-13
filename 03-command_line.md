@@ -12,7 +12,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > 1._cd_ - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
+1._cd_ - change directory gets you one down in folder paths. Cannot be used to go back in folder path. cd .. gets you up one folder in path
 
 2._rmdir_ - deletes a folder directly below the one you're in [rmdir <folder name>]. cannot be used to delete folders that have any contents
 
@@ -27,9 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 7._touch_ - creates empty file in directory
 
 8. _man_ - shows what a command is all about
-
 9. _help_ - shows help info for how to use a command
-
 10. _rm_ removes a file within the folder you are in
 
 ---
