@@ -15,7 +15,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 tuples are immutable object arrays. You can have both integers and strings in tuples, but cannot 
 do this with lists. Lists are the most simple arrays that you can do in python. Tuples would work as 
 keys in dictionaries because they are immutable and have a 2d reference.
-```
+``` 
 ---
 
 ###Q2. Lists &amp; Sets
