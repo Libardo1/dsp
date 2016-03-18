@@ -2,16 +2,13 @@ import datetime as dt
 import string
 
 def number_days(day1, day2):
-	da_stop = (day1.replace('-', '').replace('Jan', '1').replace('Feb', '2').replace('Mar', '3').replace('Apr', '4').replace('May', '5').replace('Jun', '6').replace('Jul', '7').replace('Aug', '8').replace('Sep', '9').replace('Oct', '10').replace('Nov', '11').replace('Dec', '12'))
-	da_stop = int(da_stop)
-	da_stop = dt.date(da_stop)
-    
-	da_start = (day2.replace('-', '').replace('Jan', '1').replace('Feb', '2').replace('Mar', '3').replace('Apr', '4').replace('May', '5').replace('Jun', '6').replace('Jul', '7').replace('Aug', '8').replace('Sep', '9').replace('Oct', '10').replace('Nov', '11').replace('Dec', '12'))
-	da_start = int(da_start)
-	da_start = dt.date(da_start)
-    
-	diff = (da_stop-da_start).days
-	return(diff)
+	da_stop = (day1.replace('-', '').replace('Jan', '01').replace('Feb', '02').replace('Mar', '03').replace('Apr', '04').replace('May', '05').replace('Jun', '06').replace('Jul', '07').replace('Aug', '08').replace('Sep', '09').replace('Oct', '10').replace('Nov', '11').replace('Dec', '12'))
+	da_stop = dt.date(int(da_stop[-4:]), int(da_stop[:2]), int(da_stop[3:5]))
+	
+	da_start = (day2.replace('-', '').replace('Jan', '01').replace('Feb', '02').replace('Mar', '03').replace('Apr', '04').replace('May', '05').replace('Jun', '06').replace('Jul', '07').replace('Aug', '08').replace('Sep', '09').replace('Oct', '10').replace('Nov', '11').replace('Dec', '12'))
+	da_start = dt.date(int(da_start[-4:]), int(da_start[:2]), int(da_start[3:5]))
+	
+	return(da_stop-da_start).days
 
 def main():
 	#question a
